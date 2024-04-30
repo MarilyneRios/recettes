@@ -30,6 +30,6 @@ RecipeSchema.index({
     pseudo: 'text',
 });
 
-const Recipe = mongoose.model('Recipes', RecipeSchema);
+const Recipe = mongoose.model('Recipe', RecipeSchema);
 
 export default Recipe;
